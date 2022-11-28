@@ -6,6 +6,8 @@ int main(int argc, char *argv[])
 {
     int a = atoi(argv[1]);
     int b = atoi(argv[2]);
+    int c = atoi(argv[3]);
+    int d = atoi(argv[4]);
 
     printf("<===============>\n");
     printf("<===============>\n");
@@ -15,6 +17,9 @@ int main(int argc, char *argv[])
     printf("%d - %d => %d\n", a, b, sub(a, b));
     printf("%d * %d => %d\n", a, b, mul(a, b));
     printf("%d / %d => %d\n", a, b, dur(a, b));
+    printf("%d + %d => %d\n", c, d, add(c, d));
+    printf("%d + %d => %d\n", c, d, sub(c, d));
+    
     printf("===============\n");
 
     return 0;
