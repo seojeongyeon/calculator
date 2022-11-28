@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
     printf("%d / %d => %d\n", a, b, dur(a, b));
     printf("%d + %d => %d\n", c, d, add(c, d));
     printf("%d + %d => %d\n", c, d, sub(c, d));
+    printf("%d * 2 => %d\n", a, double(a));
     
     printf("===============\n");
 
